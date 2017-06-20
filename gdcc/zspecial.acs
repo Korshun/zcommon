@@ -467,7 +467,7 @@ special
    int   -128:GetTimeProperty(2, int, int, int),
    str   -129:Strftime(2, int, int, int),
    int	 -130:SetDeadSpectator(2, int, int),
-   int   -131:SetActivatorToPlayer(int),
+   int   -131:SetActivatorToPlayer(1, int),
    
    // ZDoom's (continued)
    int   -200:CheckClass(1, str, int, int),
