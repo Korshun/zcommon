@@ -5,5 +5,5 @@ Also, `floor()`, `ceil()` and `round()` are renamed to `ZDoom_floor()`, `ZDoom_c
 
 ## Supported compilers
 * ACC
-* BCC - BCC is compatible with ACC files, even though BCC releases do not include them. Use `#include "zcommon.acs"`
+* BCC - see `bcc/` folder, BCC is also compatible with ACC files, even though BCC releases do not include them.
 * GDCC - see `gdcc/` folder
