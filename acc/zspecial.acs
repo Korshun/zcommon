@@ -147,6 +147,8 @@ special
 	143:Player_RemoveItem(2),			// Skulltag Functions
 	144:Player_GiveItem(2),				// Skulltag Functions
 	145:Player_SetTeam(1),				// Skulltag Functions
+	150:Line_SetHealth(2),
+	151:Sector_SetHealth(3),
 	152:Team_Score(2),					// Skulltag Functions
 	153:Team_GivePoints(3),				// Skulltag Functions
 	154:Teleport_NoStop(2, 3),
@@ -264,7 +266,7 @@ special
 	271:Stairs_BuildUpDoomSync(4),
 	272:Stairs_BuildDownDoomSync(4),
 	
-	// New additions can go avove 255 now.
+	// New additions can go above 255 now.
 	273:Stairs_BuildUpDoomCrush(5),
 	274:Door_AnimatedClose(2),
 	275:Floor_Stop(1),
@@ -273,6 +275,8 @@ special
 	278:Sector_SetCeilingGlow(5),
 	279:Floor_MoveToValueAndCrush(4, 5),
 	280:Ceiling_MoveToValueAndCrush(4, 5),
+	281:Line_SetAutomapFlags(3),
+	282:Line_SetAutomapStyle(2),
 	
 	// new to Eternity
 //	300:Portal_Define(5),
@@ -428,11 +432,14 @@ special
 	-209:ZDoom_Ceil(1),  // Present in ACSUtils and returns 0 in Zandronum
 	-210:ScriptCall(2, 100),	// ACS does not know varargs so use something large as maximum.
 	-211:StartSlideshow(1),
+	-212:GetSectorHealth(2),
+	-213:GetLineHealth(1),
 	
 	
 	// Eternity's
 	-300:GetLineX(3),
 	-301:GetLineY(3),
+	-302:SetAirFriction(1),
 	
 	// GZDoom OpenGL
 	-400:SetSectorGlow(6),
